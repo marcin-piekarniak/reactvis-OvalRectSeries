@@ -32,7 +32,7 @@ import { HorizontalOvalRectSeries, VerticalOvalRectSeries } from "app/shared/ova
     }
 
 // IN RENDER
-
+    let graph2Rects = this.graph2GetRects();
     return (
       <XYPlot
           height={height}
